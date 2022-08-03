@@ -1,6 +1,8 @@
-# Voice-Analytics is a research project for Queen's university and its buinsess partner Wysdom AI to explore the potentials of open source algorithms in voice analytics.
+# Voice-Analytics 
 
-This project is built based on SpeechBrain which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch.
+This is a research project for Queen's university and its buinsess partner Wysdom AI to explore the potentials of open source algorithms in voice analytics.
+
+It is productive by leveraging SpeechBrain which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch.
 
 *SpeechBrain is currently in beta*.
 
