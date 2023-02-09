@@ -1,8 +1,8 @@
 # Voice-Analytics 
 
-This is a research project for Queen's university and its buinsess partner Wysdom AI to explore the potentials of open source algorithms in voice analytics.
+This is a research project for a Canadian buinsess partner specializing on AI/chatbot application to explore the potentials of open source algorithms/pretrained model in voice analytics, especially speech recognition and diarization to achive outstanding WER, DER in a cost-effective way.
 
-It is productive by leveraging SpeechBrain which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch.
+It is a quite productive project by leveraging SpeechBrain which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch.
 
 *SpeechBrain is currently in beta*.
 
