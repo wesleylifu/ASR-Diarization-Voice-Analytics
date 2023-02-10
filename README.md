@@ -1,6 +1,7 @@
 This is a research project for a buinsess partner specializing on AI/chatbot application to explore the potentials of open source algorithms/pretrained model in voice analytics, especially speech recognition and diarization to achive outstanding WER, DER in a cost-effective way.
 
-# Business objective: Investigate and assess state-of-the-art Speech-to-text (STT) technologies that work best in the chatbot context.
+# Business objective: 
+Investigate and assess state-of-the-art Speech-to-text (STT) technologies that work best in the chatbot context.
 
 1.Identify relevant open-source datasets
 
@@ -14,7 +15,7 @@ E.g., wav2vec, Speech2Text, Transformers to assess performance on open source a
 
 5.Zero-shot and few-shot
 
-# Technically, it is a quite productive project by leveraging different pre-trained models Wave2Vec2 and toolkits such as Mozila Deepspeech, SpeechBrain. 
+Technically, it is a quite productive project by leveraging different pre-trained models Wave2Vec2 and toolkits such as Mozila Deepspeech, SpeechBrain. 
 
 Audio with Speaker Labels Identified
 ![image](https://user-images.githubusercontent.com/10097632/217982094-4a72ae50-bad8-4758-99fe-7b10e403b0d9.png)
@@ -30,33 +31,20 @@ Transcription along with speaker labels
 
 ![image](https://user-images.githubusercontent.com/10097632/217982191-51ac47c5-c2c0-401c-b50a-287a783f6ccb.png)
 
-Approach:
+# Approach:
 
 We used Common Voice to compare models for STT accuracy, and we used AMI to compare models for diarization accuracy.
 
-Dataset for Speech to Text (STT): Common Voice
-![image](https://user-images.githubusercontent.com/10097632/217982806-111d2545-f43f-47e1-ade4-934d82860ad3.png)
-
-![image](https://user-images.githubusercontent.com/10097632/217982842-a83ab2c8-994e-4264-8676-b29af95c5c24.png)
-
-Dataset for Diarization: 
-AMI Meeting Corpus
-![image](https://user-images.githubusercontent.com/10097632/217982874-3e239748-7f36-4406-a555-a91b85797003.png)
-
-![image](https://user-images.githubusercontent.com/10097632/217982894-f6ce5fe4-33c6-44c4-9f40-9ef0fb868d3f.png)
-
-
-Challenges we encountered:
+# Challenges Encountered:
 Size of the full datasets is large; computationally heavy on CPU / GPU and memory
 Requires very extensive pipeline for data ETL
 As data is managed separately by each team member, difficult to align consistent sampling/use of same data samples
 Only a subset of the data was leveraged for this analysis due to computational constraints (see 1 and 2)
-![image](https://user-images.githubusercontent.com/10097632/217982468-9a3a8818-61d9-49e1-90ed-a2e3951e3088.png)
 
 
 The experiment result suggested that Speechbrain outperformed other open-source algorithms so only Speechbrain will be elaborated further and which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch. *SpeechBrain is currently in beta
 
-# Key features
+Key features
 
 SpeechBrain provides various useful tools to speed up and facilitate research on speech and language technologies:
 - Various pretrained models nicely integrated with <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="drawing" width="40"/> <sub>(HuggingFace)</sub> in our official [organization account](https://huggingface.co/speechbrain). These models are coupled with easy-inference interfaces that facilitate their use.  To help everyone replicate our results, we also provide all the experimental results and folders (including logs, tng curves, etc.) in a shared Google Drive folder.
