@@ -1,6 +1,6 @@
 This is a research project for a buinsess partner specializing on AI/chatbot application to explore the potentials of open source algorithms/pretrained model in voice analytics, especially speech recognition and diarization to achive outstanding WER, DER in a cost-effective way.
 
-# Business objective: 
+#### Business objective: 
 Investigate and assess state-of-the-art Speech-to-text (STT) technologies that work best in the chatbot context.
 
 1.Identify relevant open-source datasets
@@ -17,25 +17,21 @@ E.g., wav2vec, Speech2Text, Transformers to assess performance on open source a
 
 Technically, it is a quite productive project by leveraging different pre-trained models Wave2Vec2 and toolkits such as Mozila Deepspeech, SpeechBrain. 
 
-Audio with Speaker Labels Identified
 ![image](https://user-images.githubusercontent.com/10097632/217982094-4a72ae50-bad8-4758-99fe-7b10e403b0d9.png)
 
 ![image](https://user-images.githubusercontent.com/10097632/217981960-06ab3ff6-29ff-4b36-b0e0-a0656f1b06c7.png)
 
-Transcription along with speaker labels
 ![image](https://user-images.githubusercontent.com/10097632/217982003-2dfb9420-4094-4b52-a408-4b52572f0cc2.png)
 
 ![image](https://user-images.githubusercontent.com/10097632/217982041-668fd4d3-1148-4520-b4ec-29afe774de44.png)
 
 ![image](https://user-images.githubusercontent.com/10097632/217982159-08f7c64d-c14b-45a3-b8c7-791b0193e2c2.png)
 
-![image](https://user-images.githubusercontent.com/10097632/217982191-51ac47c5-c2c0-401c-b50a-287a783f6ccb.png)
-
-# Approach:
+#### Approach:
 
 We used Common Voice to compare models for STT accuracy, and we used AMI to compare models for diarization accuracy.
 
-# Challenges Encountered:
+#### Challenges:
 Size of the full datasets is large; computationally heavy on CPU / GPU and memory
 Requires very extensive pipeline for data ETL
 As data is managed separately by each team member, difficult to align consistent sampling/use of same data samples
