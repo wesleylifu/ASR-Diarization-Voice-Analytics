@@ -38,9 +38,11 @@ As data is managed separately by each team member, difficult to align consistent
 Only a subset of the data was leveraged for this analysis due to computational constraints (see 1 and 2)
 
 
-The experiment result suggested that Speechbrain outperformed other open-source algorithms so only Speechbrain will be elaborated further and which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch. *SpeechBrain is currently in beta
+The experiment result suggested that Speechbrain outperformed other open-source algorithms so only Speechbrain will be elaborated further and which is an **open-source** and **all-in-one** conversational AI toolkit based on PyTorch. 
 
-Key features
+*SpeechBrain is currently in beta
+
+## Key features
 
 SpeechBrain provides various useful tools to speed up and facilitate research on speech and language technologies:
 - Various pretrained models nicely integrated with <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="drawing" width="40"/> <sub>(HuggingFace)</sub> in our official [organization account](https://huggingface.co/speechbrain). These models are coupled with easy-inference interfaces that facilitate their use.  To help everyone replicate our results, we also provide all the experimental results and folders (including logs, tng curves, etc.) in a shared Google Drive folder.
