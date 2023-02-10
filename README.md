@@ -1,19 +1,19 @@
 This is a research project for a buinsess partner specializing on AI/chatbot application to explore the potentials of open source algorithms/pretrained model in voice analytics, especially speech recognition and diarization to achive outstanding WER, DER in a cost-effective way.
 
-#### Business objective: 
+## Business objective: 
 Investigate and assess state-of-the-art Speech-to-text (STT) technologies that work best in the chatbot context.
 
-1.Identify relevant open-source datasets
+- Identify relevant open-source datasets
 
-2.Identify relevant performance metrics (e.g., F1 Score)
+- Identify relevant performance metrics (e.g., F1 Score)
 
-3.Investigate and compare existing COTS solutions
+- Investigate and compare existing COTS solutions
 E.g., IBM Watson, Azure, Deepgram, AssemblyAI, Amazon Transcribe based on price, features, quality, etc.
 
-4.Identify SOTA open-source algorithms/models
+- Identify SOTA open-source algorithms/models
 E.g., wav2vec, Speech2Text, Transformers to assess performance on open source and proprietary datasets, transcription quality, diarisation quality, etc.
 
-5.Zero-shot and few-shot
+- Zero-shot and few-shot
 
 Technically, it is a quite productive project by leveraging different pre-trained models Wave2Vec2 and toolkits such as Mozila Deepspeech, SpeechBrain. 
 
@@ -27,11 +27,11 @@ Technically, it is a quite productive project by leveraging different pre-traine
 
 ![image](https://user-images.githubusercontent.com/10097632/217982159-08f7c64d-c14b-45a3-b8c7-791b0193e2c2.png)
 
-#### Approach:
+## Approach:
 
 We used Common Voice to compare models for STT accuracy, and we used AMI to compare models for diarization accuracy.
 
-#### Challenges:
+## Challenges:
 Size of the full datasets is large; computationally heavy on CPU / GPU and memory
 Requires very extensive pipeline for data ETL
 As data is managed separately by each team member, difficult to align consistent sampling/use of same data samples
